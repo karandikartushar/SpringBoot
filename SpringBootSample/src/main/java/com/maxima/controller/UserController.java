@@ -11,6 +11,7 @@ import com.maxima.model.User;
 
 @RestController 
 @RequestMapping("user/")
+@CrossOrigin(origins = "http://localhost:8080")
 public class UserController {
 
 	@GetMapping(value="getAllUsers")
